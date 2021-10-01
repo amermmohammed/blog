@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Blog</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav id="main-div"><img style="width: 150px; height: 180px;" src="logo.png" alt="logo">
+        <h1 id="main-heading">My Blog</h1>
+    </nav>
+
+    <section class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 d-none d-xl-block">
+                    <div id="sidebar" class="card">
+                        <div class="card-body sidebar-header">
+                            <input type="search" class="form-control" id="search-input" placeholder="Search..."
+                                aria-label="Search docs for...">
+                            <ul class="list-unstyled components">
+                                <h1>Menu</h1>
+                                <li class="active">
+                                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"
+                                        class="dropdown-toggle">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+                                        class="dropdown-toggle">Pages</a>
+                                </li>
+                                <li>
+                                    <a href="#">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div id="aboutme" class="card">
+                        <div class="card-body">
+                            <div class="card-heading">
+                                <h1>about me</h1>
+                            </div>
+                            <div class="card-body">
+                                <img src="aboutme.jpg" alt="me">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                    takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                <img src="signature.png" alt="signature">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="gallary" class="card">
+                        <div class="card-body">
+                            <div class="card-heading">
+                                <h1>Gallary</h1>
+                            </div>
+                            <div class="card-body">
+                                <!-- Gallery -->
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
+                                        <img class="w-100 shadow-1-strong rounded mb-2" alt="gallary-item"
+                                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" />
+                                        <img class="w-100 shadow-1-strong rounded mb-2" alt="gallary-item"
+                                            src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" />
+                                    </div>
+
+                                    <div class="col-lg-4 mb-2 mb-lg-0">
+                                        <img class="w-100 shadow-1-strong rounded mb-2" alt="gallary-item"
+                                            src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" />
+                                        <img class="w-100 shadow-1-strong rounded mb-2" alt="gallary-item"
+                                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" />
+                                    </div>
+
+                                    <div class="col-lg-4 mb-2 mb-lg-0">
+                                        <img class="w-100 shadow-1-strong rounded mb-2" alt="gallary-item"
+                                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" />
+                                        <img class="w-100 shadow-1-strong rounded mb-2" alt="gallary-item"
+                                            src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" />
+                                    </div>
+                                </div>
+                                <!-- Gallery -->
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="Time" class="card">
+                        <div class="card-body">
+                            <div class="card-heading">
+                                <h1>Time</h1>
+                            </div>
+                            <div class="card-body">
+                                <div class="watch-container">
+                                    <div class="watch">
+                                        <div class="watch-face">
+                                            <div class="watch-face-outline">
+                                                <div class="watch-face-outline-point point-12"></div>
+                                                <div class="watch-face-outline-point point-1"></div>
+                                                <div class="watch-face-outline-point point-2"></div>
+                                                <div class="watch-face-outline-point point-3"></div>
+                                                <div class="watch-face-outline-point point-4"></div>
+                                                <div class="watch-face-outline-point point-5"></div>
+                                                <div class="watch-face-outline-point point-6"></div>
+                                                <div class="watch-face-outline-point point-7"></div>
+                                                <div class="watch-face-outline-point point-8"></div>
+                                                <div class="watch-face-outline-point point-9"></div>
+                                                <div class="watch-face-outline-point point-10"></div>
+                                                <div class="watch-face-outline-point point-11"></div>
+                                            </div>
+                                            <div class="watch-face-date date"></div>
+                                            <div class="watch-face-centre">
+                                                <div class="watch-face-centre-inner"></div>
+                                            </div>
+                                            <div class="watch-face-hands">
+                                                <div class="watch-face-hand hour"></div>
+                                                <div class="watch-face-hand minute"></div>
+                                                <div class="watch-face-hand second"></div>
+                                            </div>
+                                        </div>
+                                        <div class="watch-crown"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="Login" class="card">
+                        <div class="card-body">
+                            <div class="card-heading">
+                                <h1>Login</h1>
+                            </div>
+                            <div class="card-body">
+                                <form id="login-form" class="box">
+                                    <input id="username-field" type="text" name="username" placeholder="Username"
+                                        required>
+                                    <input id='password-field' type="password" name="password" placeholder="Password"
+                                        required>
+                                    <input type="submit" value="Login" id="login-form-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Contact" class="card">
+                        <div class="card-body">
+                            <div class="card-heading">
+                                <h1>Contact me</h1>
+                            </div>
+                            <div class="card-body">
+                                <form id="contact-form" class="box">
+                                    <input id="email-field" type="email" name="Email" placeholder="Email" required>
+                                    <textarea name="message" id="message" cols="30"
+                                        rows="11">write your message here!</textarea>
+                                    <input type="submit" value="send" id="message-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-12 blog-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="blog-heading bottom-line">Blog Title</h3>
+                            <hr class="h-line">
+                            <p class="blog-content">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                                sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                                amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                                et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet.
+
+                                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                                vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
+                                dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+                                facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                                nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                                vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                                delenit augue duis dolore te feugait nulla facilisi.
+
+                                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
+                                mazim placerat facer
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="blog-heading bottom-line">Blog Title</h3>
+                            <hr class="h-line">
+                            <p class="blog-content">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                                sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                                amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                                et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet.
+
+                                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                                vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
+                                dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+                                facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                                nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                                vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                                delenit augue duis dolore te feugait nulla facilisi.
+
+                                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
+                                mazim placerat facer
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="blog-heading bottom-line">Blog Title</h3>
+                            <hr class="h-line">
+                            <p class="blog-content">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                                sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                                amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                                et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet.
+
+                                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                                vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
+                                dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+                                facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                                nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                                vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                                delenit augue duis dolore te feugait nulla facilisi.
+
+                                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
+                                mazim placerat facer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-block d-xl-none">
+                <div class="col-12">
+                    <div id="sidebar" class="card">
+                        <div class="card-body sidebar-header">
+                            <input type="search" class="form-control" id="search-input" placeholder="Search..."
+                                aria-label="Search docs for...">
+                            <ul class="list-unstyled components">
+                                <h1>Menu</h1>
+                                <li class="active">
+                                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"
+                                        class="dropdown-toggle">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+                                        class="dropdown-toggle">Pages</a>
+                                </li>
+                                <li>
+                                    <a href="#">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div id="aboutme" class="card">
+                        <div class="card-body">
+                            <div class="card-heading">
+                                <h1>about me</h1>
+                            </div>
+                            <div class="card-body">
+                                <img src="aboutme.jpg" alt="me">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                    takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                <img src="signature.png" alt="signature">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div id="Login" class="card">
+                        <div class="card-body">
+                            <div class="card-heading">
+                                <h1>Login</h1>
+                            </div>
+                            <div class="card-body">
+                                <form id="login-form" class="box">
+                                    <input id="username-field" type="text" name="username" placeholder="Username"
+                                        required>
+                                    <input id='password-field' type="password" name="password" placeholder="Password"
+                                        required>
+                                    <input type="submit" value="Login" id="login-form-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Contact" class="card">
+                        <div class="card-body">
+                            <div class="card-heading">
+                                <h1>Contact me</h1>
+                            </div>
+                            <div class="card-body">
+                                <form id="contact-form" class="box">
+                                    <input id="email-field" type="email" name="Email" placeholder="Email" required>
+                                    <textarea name="message" id="message" cols="30"
+                                        rows="11">write your message here!</textarea>
+                                    <input type="submit" value="send" id="message-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p id="copyright"></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        document.getElementById("copyright").innerHTML = "Made with ❤ by Amer " + (new Date).getFullYear();
+    </script>
+    <script>
+        $(document).ready(function () {
+            function watch() {
+                // Get the time
+                var now = new Date();
+                var time = now.getHours() * 3600 +
+                    now.getMinutes() * 60 +
+                    now.getSeconds() * 1 +
+                    now.getMilliseconds() / 1000;
+
+                // Change the time into degrees
+                var hours = time / 60 / 12 * 6;
+                var minutes = time / 60 * 6;
+                var seconds = time * 6;
+                var date = now.getDate();
+
+                // Modify classes
+                $('.hour').css('transform', 'rotate(' + hours + 'deg)');
+                $('.minute').css('transform', 'rotate(' + minutes + 'deg)');
+                $('.second').css('transform', 'rotate(' + seconds + 'deg)');
+                $('.date').html(date);
+            }
+
+            // Get new time every 50ms
+            setInterval(watch, 50);
+        });
+    </script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
